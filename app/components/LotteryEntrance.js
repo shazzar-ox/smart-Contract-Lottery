@@ -29,6 +29,8 @@ const LotteryEntrance = () => {
     // get recent winner
     const { runContractFunction: getRecentWinner, isLoading, isFetching } = useWeb3Contract({ abi: abi, contractAddress: cAddress, functionName: "getRecentWinner", params: {} })
 
+    
+
     const dispatch = useNotification()
 
     const updateUi = async () => {
