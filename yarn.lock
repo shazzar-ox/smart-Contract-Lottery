@@ -6602,16 +6602,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.3.4":
-  version: 3.3.4
-  resolution: "nanoid@npm:3.3.4"
-  bin:
-    nanoid: bin/nanoid.cjs
-  checksum: 2fddd6dee994b7676f008d3ffa4ab16035a754f4bb586c61df5a22cf8c8c94017aadd360368f47d653829e0569a92b129979152ff97af23a558331e47e37cd9c
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:^3.3.6":
+"nanoid@npm:^3.3.4, nanoid@npm:^3.3.6":
   version: 3.3.6
   resolution: "nanoid@npm:3.3.6"
   bin:
@@ -6641,7 +6632,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"next@npm:^13.4.13":
+"next@npm:^13.0.2":
   version: 13.4.13
   resolution: "next@npm:13.4.13"
   dependencies:
@@ -6706,7 +6697,7 @@ __metadata:
     eslint-config-next: 12.1.5
     ethers: ^6.7.0
     moralis: ^1.8.0
-    next: ^13.4.13
+    next: ^13.0.2
     postcss: ^8.4.27
     react: 18.0.0
     react-dom: 18.0.0

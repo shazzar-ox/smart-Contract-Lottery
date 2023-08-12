@@ -8,15 +8,16 @@ import { NotificationProvider } from 'web3uikit'
 
 
 export default function Home() {
-  const { enableWeb3, account } = useMoralis()
+  // const { enableWeb3, account } = useMoralis()
 
   return (
     <>
-    <NotificationProvider>
-      <EasyNav />
+        <NotificationProvider>
+          <EasyNav />
 
-      <LotteryEntrance/>
-      </NotificationProvider>
+          <LotteryEntrance />
+        </NotificationProvider>
+
       {/* <Nav /> */}
       {/* <h1>hello  main</h1> */}
     </>

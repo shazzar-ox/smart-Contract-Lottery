@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 
 import { useWeb3Contract } from "react-moralis"
 import { abi, contractAddres } from '../Constants/index'
